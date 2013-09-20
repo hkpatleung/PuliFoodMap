@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.PuliFoodMap"
+    version   = "1.0.0">
+
+<name>埔里美食地圖</name>
+
+<description>
+埔里鎮是一個樸實可愛的農村小鎮，水質優良、氣候宜人，許多特產和美食均具有地方特色。
+</description>
+
+<author href="https://www.e-happpy.com.tw" email="e-happy@e-happy.com.tw">
+文淵閣工作室
+</author>
+
+<preference name="orientation" value="portrait" />
+<preference name="android-minSdkVersion" value="7" />
+
+<icon src="images/PuliFoodMapIcon.png" gap:platform="android" />
+<gap:splash src="images/PuliFoodMap.png" gap:platform="android" />
+
+</widget>
